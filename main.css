@@ -1,0 +1,64 @@
+/*-------------------------
+          GENERAL
+-------------------------*/
+
+* {
+  box-sizing: border-box;
+}
+
+/* Single direction margin declaration */
+h1,
+ul,
+p,
+img {
+  margin-bottom: 2rem;
+}
+
+/* Set default size for containers */
+.about,
+.services,
+.distributed-products,
+.footer {
+  width: 95%;
+  margin: 1.5rem auto;
+  padding: .5rem 1rem;
+  text-align: center;
+}
+
+/* Set default background image, font, size and text color */
+body {
+  background-color: #ffffff;
+  font-family: 'Gentium Basic', serif;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  color: #444349;
+}
+
+/* Set default font family for h1 and h2 */
+h1,
+h2 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* h2 and h3 font size */
+h2 {
+  font-size: 3rem;
+  margin-top: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+/* links color and hover */
+a {
+  text-decoration: none;
+  color: #5f9ac6;
+}
+
+a:hover {
+  color: #6cbcf7;
+  transition: color .20s ease-in-out;
+}
+
+
